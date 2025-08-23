@@ -28,16 +28,6 @@ public class Calculator : MonoBehaviour
         = {ElementalManager.ElementalType.Poison
             ,ElementalManager.ElementalType.Count};
 
-    #region STAT
-    public static float BuffHP(StatController owner, float rate) => owner.HP *= (1 + rate);
-    public static float BuffMP(StatController owner, float rate) => owner.MP *= (1 + rate);
-    public static float BuffMATK(StatController owner, float rate) => owner.MATK *= (1 + rate);
-    public static float BuffSATK(StatController owner, float rate) => owner.SATK *= (1 + rate);
-    public static float BuffDEF(StatController owner, float rate) => owner.DEF *= (1 + rate);
-    public static float BuffCTKR(StatController owner, float rate) => owner.CTKR *= (1 + rate);
-    public static float BuffEVDR(StatController owner, float rate) => owner.EVDR *= (1 + rate);
-    #endregion
-
     public class DamageInfo
     {
         DamageTextController.DamageType type;
@@ -232,8 +222,9 @@ public class Calculator : MonoBehaviour
     private static bool CheckOdds(float odds) =>
         Random.Range(0f, 1f) < Mathf.Clamp(odds, 0f, 1f) ? true : false;
 
-    private static float RandomizedDamage(float value) => Mathf.CeilToInt(Random.Range(
-                    value * 0.866f
-                    , value * 1.066f));
+    private static float RandomizedDamage(float value) =>
+        Mathf.CeilToInt(Random.Range(
+            value * 0.866f,
+            value * 1.066f));
     #endregion
 }
