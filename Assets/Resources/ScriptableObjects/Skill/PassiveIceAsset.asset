@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6b927f17abd61f46a8b2e72000a8d7d, type: 3}
+  m_Name: PassiveIceAsset
+  m_EditorClassIdentifier: 
+  Outer: 0
+  Inner: 1
+  Id: -98
+  Icon: {fileID: 1401011104, guid: 34bc5414ed3208f47915ff7f10c724fc, type: 3}
+  Name: "\uC0C1\uD0DC \uC774\uC0C1: \uBE59\uACB0"
+  Intro: "\uBE59\uACB0 \uD655\uB960 \uBC0F \uB454\uD654\uC728(\uC774)\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  MainAbility:
+    NAME: "\uD655\uB960"
+    TYPE: 0
+    FORMAT: 2
+    BASE: 0.05
+    PER: 0.025
+  SubAbility:
+    NAME: "\uB454\uD654\uC728"
+    TYPE: 0
+    FORMAT: 2
+    BASE: 1.5
+    PER: 0.5
+  MaxLv: 1
+  Cost: 1

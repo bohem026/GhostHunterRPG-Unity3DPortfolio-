@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7e3e746b2f38d49b23e5e4048fbafe, type: 3}
+  m_Name: UniqueSweaterAsset
+  m_EditorClassIdentifier: 
+  Outer: 2
+  Inner: 1
+  Icon: {fileID: 21300000, guid: 4b2f32fd28aaa7449834d9a323107ab4, type: 3}
+  Button: {fileID: 1362872657908786266, guid: b717ea7e39fc1814ba4f1b38200da243, type: 3}
+  Name: "\uD640\uB9AC\uB370\uC774 \uC2A4\uC6E8\uD130 III"
+  Intro: "\uC124\uC0B0\uC744 \uB118\uC740 \uC0DD\uC874\uC790\uC758 \uC2A4\uC6E8\uD130.
+    \uC785\uB294 \uC21C\uAC04 \uC2EC\uC7A5\uC774 \uB530\uB73B\uD574\uC9C0\uACE0,
+    \uC5BC\uC5B4\uBD99\uC740 \uBAB8\uC5D0 \uD65C\uAE30\uAC00 \uB3C8\uB2E4."
+  MainStat:
+    NAME: HP
+    TYPE: 0
+    FORMAT: 0
+    BASE: 9000
+  SubStat:
+    NAME: "\uBC29\uC5B4\uB825"
+    TYPE: 1
+    FORMAT: 0
+    BASE: 60

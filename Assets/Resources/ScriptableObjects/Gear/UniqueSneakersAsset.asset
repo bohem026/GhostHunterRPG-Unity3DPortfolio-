@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7e3e746b2f38d49b23e5e4048fbafe, type: 3}
+  m_Name: UniqueSneakersAsset
+  m_EditorClassIdentifier: 
+  Outer: 2
+  Inner: 3
+  Icon: {fileID: 21300000, guid: 130f9653195c49c42a6474c6ff250932, type: 3}
+  Button: {fileID: 1362872657908786266, guid: b717ea7e39fc1814ba4f1b38200da243, type: 3}
+  Name: "\uBE48\uD2F0\uC9C0 \uC2A4\uB2C8\uCEE4\uC988 III"
+  Intro: "\uB3C4\uC2EC \uD30C\uCFE0\uB974 \uCC54\uD53C\uC5B8\uC758 \uBE44\uBC00 \uBCD1\uAE30.
+    \uC5B4\uB5A0\uD55C \uBCBD\uB3C4, \uB09C\uAC04\uB3C4 \uAC70\uB72C\uD558\uB2E4."
+  MainStat:
+    NAME: "\uD68C\uD53C\uC728"
+    TYPE: 5
+    FORMAT: 1
+    BASE: 0.03
+  SubStat:
+    NAME: 
+    TYPE: 6
+    FORMAT: 2
+    BASE: 0

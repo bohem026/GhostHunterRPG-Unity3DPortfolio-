@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6b927f17abd61f46a8b2e72000a8d7d, type: 3}
+  m_Name: ActivePoisonAsset
+  m_EditorClassIdentifier: 
+  Outer: 2
+  Inner: 3
+  Id: 3
+  Icon: {fileID: 21300000, guid: 592b87def7831234aac60a406fd1a911, type: 3}
+  Name: "\uD3EC\uC774\uC98C \uC784\uD329\uD2B8"
+  Intro: "\uC801 \uC77C\uBD80\uC5D0\uAC8C \uB3C5 \uC18D\uC131 \uB300\uBBF8\uC9C0\uB97C
+    \uC8FC\uACE0 \uD655\uB960\uC801\uC73C\uB85C \uC911\uB3C5\uC744 \uBD80\uC5EC\uD569\uB2C8\uB2E4."
+  MainAbility:
+    NAME: "\uB300\uBBF8\uC9C0 \uBC30\uC728"
+    TYPE: 0
+    FORMAT: 2
+    BASE: 0.72
+    PER: 0.015
+  SubAbility:
+    NAME: "\uB3D9\uC2DC \uD0C0\uACA9 \uC218"
+    TYPE: 4
+    FORMAT: 0
+    BASE: 0
+    PER: 1
+  MaxLv: 3
+  Cost: 3

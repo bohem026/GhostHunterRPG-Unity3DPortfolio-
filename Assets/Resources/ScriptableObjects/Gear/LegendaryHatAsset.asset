@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7e3e746b2f38d49b23e5e4048fbafe, type: 3}
+  m_Name: LegendaryHatAsset
+  m_EditorClassIdentifier: 
+  Outer: 3
+  Inner: 0
+  Icon: {fileID: 21300000, guid: c44f24366b195f54cb29a58d82ffe91f, type: 3}
+  Button: {fileID: 689295970978163742, guid: 72d6e74fb094b624682a8fe51c21b944, type: 3}
+  Name: "\uD06C\uB77C\uC6B4 \uC624\uBE0C \uBE44\uC804"
+  Intro: "\uC0AC\uB77C\uC9C4 \uC601\uC6C5\uC758 \uC804\uC124 \uC18D \uBAA8\uC790.
+    \uC4F0\uB294 \uC21C\uAC04, \uBA38\uB9BF\uC18D\uC774 \uBA85\uC11D\uD574\uC9C0\uACE0
+    \uBAA8\uB4E0 \uAC01\uB3C4\uAC00 \uACC4\uC0B0\uB41C\uB2E4."
+  MainStat:
+    NAME: "\uBB3C\uB9AC \uACF5\uACA9\uB825"
+    TYPE: 2
+    FORMAT: 0
+    BASE: 300
+  SubStat:
+    NAME: "\uB9C8\uBC95 \uACF5\uACA9\uB825"
+    TYPE: 3
+    FORMAT: 0
+    BASE: 270

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9c3296c135ed7419eb3b133ee561b6, type: 3}
+  m_Name: MonFireStatAsset
+  m_EditorClassIdentifier: 
+  efType: 0
+  elType: 0
+  baseDMGR: 0.01
+  baseDUR: 10
+  baseITV: 0.66
+  baseODDS: 0.3
+  perDMGR: 0
+  perDUR: 0
+  perITV: 0.8
+  perODDS: 0
+  paintball: {fileID: 1033174013986433981, guid: abc529aa4e7f70645ae17a8bf49ec557, type: 3}
+  paintballTextures:
+  - {fileID: 2800000, guid: 66a927642f13f17409011743720edd60, type: 3}
+  - {fileID: 2800000, guid: e0b49a866ce26be49b8b5cdb1c95e2bb, type: 3}

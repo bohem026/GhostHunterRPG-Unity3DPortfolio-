@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "299170651868",
+    "project_id": "projectgh-c5b2e",
+    "storage_bucket": "projectgh-c5b2e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299170651868:android:2ca2866f1384c226835e19",
+        "android_client_info": {
+          "package_name": "com.dreamfactory.RPG"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299170651868-38igo71l3am70r9vgidclgeoktmotj15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamfactory.RPG",
+            "certificate_hash": "fc3bc86c1f6cab597036274c3a7c7b3ceac4d170"
+          }
+        },
+        {
+          "client_id": "299170651868-8rsvvdpbkrd6q9eeqsnblpr99vd3g99j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamfactory.RPG",
+            "certificate_hash": "ca82bb0904ce75b7026fcc25176c230ff0ffde6c"
+          }
+        },
+        {
+          "client_id": "299170651868-9l6n0kbp4t4leb5t4ieql95i2gc2ubvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamfactory.RPG",
+            "certificate_hash": "12549f1a3244c8729727696e87de2958bab1a6f9"
+          }
+        },
+        {
+          "client_id": "299170651868-k5ucse4ba983t40100ldf782e88q74nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAZuWt-1zezFI89b_0b7SI6Npnk4kD-I8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299170651868-bp0cfbndu5jdndl0l7vfaav5mf8093tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

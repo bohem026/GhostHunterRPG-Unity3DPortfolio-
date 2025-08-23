@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9c3296c135ed7419eb3b133ee561b6, type: 3}
+  m_Name: MonLightStatAsset
+  m_EditorClassIdentifier: 
+  efType: 0
+  elType: 2
+  hitEffect: {fileID: 704904113193347976, guid: 8f0d64c946f0c9f42810052d91bdeab9, type: 3}
+  baseDMG: 3
+  baseDUR: 10
+  baseITV: 0
+  perDMG: 0
+  perDUR: 0
+  perITV: 0
+  paintball: {fileID: 1033174013986433981, guid: abc529aa4e7f70645ae17a8bf49ec557, type: 3}
+  paintballTextures:
+  - {fileID: 2800000, guid: a39727888980ec040bc6c32d7f828f33, type: 3}
+  - {fileID: 2800000, guid: 99961a23df609b443a7d300d7826cf6c, type: 3}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2961ada2c6b6f4943811c159121bc023, type: 3}
+  m_Name: Stage3Asset
+  m_EditorClassIdentifier: 
+  NUM_STAGE: 3
+  entries:
+  - prefab: {fileID: 2980981649646667059, guid: 96d3e7ec5224a8746abcb2a91795d144, type: 3}
+    countPerWave: 120000001500000018000000
+  - prefab: {fileID: 3546728514965862592, guid: 541416bb510d6e448b204252be36b1fa, type: 3}
+    countPerWave: 00000000070000000a000000
+  stGemCount: 10
+  skGemCount: 2
+  rewardGears:
+  - {fileID: 11400000, guid: b899c63f1fd6a6b44b555f57f8948f7d, type: 2}
+  - {fileID: 11400000, guid: 49f5d93777e3a5f4699f11b803477d4b, type: 2}
+  - {fileID: 11400000, guid: 569580f2ce594924f81598868dbbd0cd, type: 2}
+  bgm_Wave1: {fileID: 8300000, guid: 90c35ef2d9e7dcf4cb2b767cdbbb804b, type: 3}
+  bgm_Wave2: {fileID: 8300000, guid: da4f748a09cc63b4399c293d5a78c32f, type: 3}
+  bgm_Wave3: {fileID: 8300000, guid: 3b63d67c95adfbd4586be659bb9d117b, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3743b7c0f59ab83448c1c78ec166aae2, type: 3}
+  m_Name: CTKRAsset
+  m_EditorClassIdentifier: 
+  Icon: {fileID: -606357570, guid: 33273e4968e67924dbd7a60529681e0f, type: 3}
+  Name: "\uCE58\uBA85\uD0C0 \uD655\uB960"
+  Intro: "\uCE58\uBA85\uD0C0 \uD655\uB960\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+  Type: 6
+  Format: 2
+  BaseValue: 0.1
+  PerValue: 0.018
+  MaxLv: 50
+  Cost: 2

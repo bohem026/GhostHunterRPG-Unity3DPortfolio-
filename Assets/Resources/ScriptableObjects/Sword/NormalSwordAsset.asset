@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a79800dbfe39644ab98a189270f941, type: 3}
+  m_Name: NormalSwordAsset
+  m_EditorClassIdentifier: 
+  elType: 4
+  minDamageRate: 0.45
+  slashEffect: {fileID: 2060900179291159282, guid: 1aec02c7a1753d14cac6095d04b23961, type: 3}
+  effectRotX_NAtk: 0.3
+  effectRotX_SAtk: 0.95

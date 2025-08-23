@@ -1,0 +1,155 @@
+Shader Graphs/Electricity Sword2_Fill_URP Use Guidelines:
+
+Properties:
+
+	_Base_Color_1              	:The base color 1 of the material, which determines the base color 1 of the material
+	_Base_Color_2 				:The base color 2 of the material, which determines the base color 2 of the material
+	_Base_Color_3				:The base color 3 of the material, which determines the base color 3 of the material
+	_Brightness_1				:The slider that controls the brightness of the base color 1, the bigger the number, the more brighter
+	_Brightness_2				:The slider that controls the brightness of the base color 2, the bigger the number, the more brighter
+	_Brightness_3				:The slider that controls the brightness of the base color 3, the bigger the number, the more brighter
+    _Base_Map        		   	:The base map of the material, which determines the Albedo of the material
+	_Color_ID_Map				:The color id map of the material, which determines the color id of the material
+	_Metallic   			   	:The metallic is controlled by a slider, between 0 and 1 values, 0 means no metallic, 1 is total metallic
+	_Roughness			       	:The roughness of the material is controlled by a slider, between 0 and 1 values, 0 means no roughness, 1 is total roughness
+	_Metallic_Map       	   	:The metallic map texture of the object, which determines the Metallic of the material
+	_Normal_Map_Strength       	:The strength of the normal map, which determines the intensity of the normal map
+	_Normal_Map                	:The normal map texture of the object, which determines the Normal of the material
+	_Emission_Color     		:The emission color of the material, which controls the color and intensity of light that the surface of a Material emits
+	_Emission_Map              	:The emission map texture of the object, which determines the Emission of the material
+	_Ambient_Occlusion_Strength	:The strength of the ambient occlusion map, which determines the intensity of the ambient occlusion map
+	_Ambient_Occlusion_Map		:The ambient occlusion map texture of the object, which determines the Ambient Occlusion of the material
+	_Fill_Level_Emission_Color  :The emission color which determines the emission color of the fill level
+	_Fill_Level                	:The slider that controls the fill level percentage
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Shader Graphs/Electricity Sword2_Electricity Weapons Effects_URP Use Guidelines:
+
+Properties:
+
+	_Base_Color_1              	:The base color 1 of the material, which determines the base color 1 of the material
+	_Base_Color_2 				:The base color 2 of the material, which determines the base color 2 of the material
+	_Base_Color_3				:The base color 3 of the material, which determines the base color 3 of the material
+	_Brightness_1				:The slider that controls the brightness of the base color 1, the bigger the number, the more brighter
+	_Brightness_2				:The slider that controls the brightness of the base color 2, the bigger the number, the more brighter
+	_Brightness_3				:The slider that controls the brightness of the base color 3, the bigger the number, the more brighter
+	_Base_Map                	:The base map of the material, which determines the Albedo of the material
+	_Color_ID_Map				:The color id map of the material, which determines the color id of the material
+	_Metallic                  	:The metallic is controlled by a slider, between 0 and 1 values, 0 means no metallic, 1 is total metallic
+	_Roughness                 	:The roughness of the material is controlled by a slider, between 0 and 1 values, 0 means no roughness, 1 is total roughness
+	_Metallic_Map              	:The metallic map texture of the object, which determines the Metallic of the material
+	_Normal_Map_Strength       	:The strength of the normal map, which determines the intensity of the normal map
+	_Normal_Map                	:The normal map texture of the object, which determines the Normal of the material
+	_Emission_Color  		    :The emission color of the material, which controls the color and intensity of light that the surface of a Material emits
+	_Emission_Opacity_Minimum	:The slider that controls the minimum strength of the pulsing effect
+	_Pulsing Enabled			:The pulsing enabled checkbox to enable or disable the pulsing effect
+	_Emission_Opacity_Maximum	:The slider that controls the maximum strength of the pulsing effect
+	_Pulsing_Speed             	:The number that controls the speed of the pulsing effect
+	_Emission_Map             	:The emission map texture of the object, which determines the Emission of the material
+	_Ambient_Occlusion_Strength	:The strength of the ambient occlusion map, which determines the intensity of the ambient occlusion map
+	_Ambient_Occlusion_Map	   	:The ambient occlusion map texture of the object, which determines the Ambient Occlusion of the material
+	_Electricity_Color         	:The color of the electricity, which determines the color of the electricity effect
+	_Electricity_Opacity		:The slider that controls the opacity of the electricity effect, the bigger the number, the more visible the electricity effect
+	_Electricity_Density       	:The number that controls the density of the electricity effect, the bigger the number, the more dense the electricity 
+	_Electricity_Width	        :The slider that controls the width of the electricity effect, the bigger the number, the thicker
+	_Electricity_Speed_X       	:The speed of the electricity, that controls the speed of the electricity effect, it has one value x
+	_Electricity_Speed_Y       	:The speed of the electricity, that controls the speed of the electricity effect, it has one value y
+	_Orb_Color					:The color of the orb, which determines the color of the orb effect
+	_Orb_Opacity				:The slider that controls the opacity of the orb effect, the bigger the number, the more visible the orb effect
+	_Orb_Invert					:The checkbox that inverts the orb effect
+	_Orb_Density				:The number that controls the density of the orb effect
+	_Orb_Speed_X       			:The speed of the orb, that controls the speed of the orb effect, it has one value x
+	_Orb_Speed_Y       			:The speed of the orb, that controls the speed of the orb effect, it has one value y
+	_Circuit_Color             	:The color of the circuit, which determines the color of the circuit effect
+	_Circuit_Opacity			:The slider that controls the opacity of the circuit effect, the bigger the number, the more visible the circuit effect
+	_Circuit_Density			:The number that controls the density of the circuit effect
+	_Circuit_Width				:The slider that controls the width of the circuit effect,the bigger the number, the thicker
+	_Circuit_Speed_X           	:The number that controls the speed of the circuit effect,it has one value x 
+	_Circuit_Speed_Y           	:The number that controls the speed of the circuit effect,it has one value y
+	
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Shader Graphs/Electricity Sword2_Electricity Weapons Effects_HDRP Use Guidelines:
+
+Properties:
+
+	_Base_Color_1_             	:The base color 1 of the material, which determines the base color 1 of the material
+	_Base_Color_2_ 				:The base color 2 of the material, which determines the base color 2 of the material
+	_Base_Color_3_				:The base color 3 of the material, which determines the base color 3 of the material
+	_Brightness_1_				:The slider that controls the brightness of the base color 1, the bigger the number, the more brighter
+	_Brightness_2_				:The slider that controls the brightness of the base color 2, the bigger the number, the more brighter
+	_Brightness_3_				:The slider that controls the brightness of the base color 3, the bigger the number, the more brighter
+	_Base_Map_               	:The base map of the material, which determines the Albedo of the material
+	_Color_ID_Map_				:The color id map of the material, which determines the color id of the material
+	_Metallic_                 	:The metallic is controlled by a slider, between 0 and 1 values, 0 means no metallic, 1 is total metallic
+	_Roughness_                	:The roughness of the material is controlled by a slider, between 0 and 1 values, 0 means no roughness, 1 is total roughness
+	_Mask_Map_  	   			:The mask map texture of the object, which determines the Metallic of the material
+	_Normal_Map_Strength_      	:The strength of the normal map, which determines the intensity of the normal map
+	_Normal_Map_               	:The normal map texture of the object, which determines the Normal of the material
+	_Emission_Color_ 		    :The emission color of the material, which controls the color and intensity of light that the surface of a Material emits
+	_Emission_Exposure_       	:The slider that controls the intensity of the emission
+	_Emission_Opacity_Minimum_	:The slider that controls the minimum strength of the pulsing effect
+	_Pulsing Enabled_			:The pulsing enabled checkbox to enable or disable the pulsing effect
+	_Emission_Opacity_Maximum_	:The slider that controls the maximum strength of the pulsing effect
+	_Pulsing_Speed_            	:The number that controls the speed of the pulsing effect
+	_Emission_Map_            	:The emission map texture of the object, which determines the Emission of the material
+	_Ambient_Occlusion_Strength_:The strength of the ambient occlusion map, which determines the intensity of the ambient occlusion map
+	_Ambient_Occlusion_Map_   	:The ambient occlusion map texture of the object, which determines the Ambient Occlusion of the material
+	_Electricity_Color_     	:The color of the electricity, which determines the color of the electricity effect
+	_Electricity_Color_Exposure_:The slider that controls the intensity of the electricity color
+	_Electricity_Opacity_		:The slider that controls the opacity of the electricity effect, the bigger the number, the more visible the electricity effect
+	_Electricity_Density_      	:The number that controls the density of the electricity effect, the bigger the number, the more dense the electricity 
+	_Electricity_Width_	        :The slider that controls the width of the electricity effect, the bigger the number, the thicker
+	_Electricity_Speed_X_      	:The speed of the electricity, that controls the speed of the electricity effect, it has one value x
+	_Electricity_Speed_Y_      	:The speed of the electricity, that controls the speed of the electricity effect, it has one value y
+	_Orb_Color_					:The color of the orb, which determines the color of the orb effect
+	_Orb_Color_Exposure_		:The slider that controls the intensity of orb effect
+	_Orb_Opacity_				:The slider that controls the opacity of the orb effect, the bigger the number, the more visible the orb effect
+	_Orb_Invert_				:The checkbox that inverts the orb effect
+	_Orb_Density_				:The number that controls the density of the orb effect
+	_Orb_Speed_X_       		:The speed of the orb, that controls the speed of the orb effect, it has one value x
+	_Orb_Speed_Y_       		:The speed of the orb, that controls the speed of the orb effect, it has one value y
+	_Circuit_Color_           	:The color of the circuit, which determines the color of the circuit effect
+	_Circuit_Color_Exposure_   	:The slider that controls the intensity of the circuit color
+	_Circuit_Opacity_			:The slider that controls the opacity of the circuit effect, the bigger the number, the more visible the circuit effect
+	_Circuit_Density_			:The number that controls the density of the circuit effect
+	_Circuit_Width_				:The slider that controls the width of the circuit effect,the bigger the number, the thicker
+	_Circuit_Speed_X_          	:The number that controls the speed of the circuit effect,it has one value x 
+	_Circuit_Speed_Y_          	:The number that controls the speed of the circuit effect,it has one value y
+	
+----------------------------------------------------------------------------------------------------------------------------
+
+Shader Graphs/Electricity Sword2_Fill_HDRP Use Guidelines:
+
+Properties:
+
+	_Base_Color_1_             	:The base color 1 of the material, which determines the base color 1 of the material
+	_Base_Color_2_ 				:The base color 2 of the material, which determines the base color 2 of the material
+	_Base_Color_3_				:The base color 3 of the material, which determines the base color 3 of the material
+	_Brightness_1_				:The slider that controls the brightness of the base color 1, the bigger the number, the more brighter
+	_Brightness_2_				:The slider that controls the brightness of the base color 2, the bigger the number, the more brighter
+	_Brightness_3_				:The slider that controls the brightness of the base color 3, the bigger the number, the more brighter
+    _Base_Map_              	:The base map of the material, which determines the Albedo of the material
+	_Color_ID_Map_				:The color id map of the material, which determines the color id of the material
+    _Metallic_                	:The metallic is controlled by a slider, between 0 and 1 values, 0 means no metallic, 1 is total metallic
+    _Roughness_               	:The roughness of the material is controlled by a slider, between 0 and 1 values, 0 means no roughness, 1 is total roughness
+	_Mask_Map_                	:The mask map texture of the object, which determines the Metallic of the material
+    _Normal_Map_Strength_     	:The strength of the normal map, which determines the intensity of the normal map
+	_Normal_Map_              	:The normal map texture of the object, which determines the Normal of the material
+	_Emission_Color_   			:The emission color of the material, which controls the color and intensity of light that the surface of a Material emits
+    _Emission_Color_Exposure_	:The emission color of the material, which controls the color and intensity of light that the surface of a Material emits
+	_Emission_Map_            	:The emission map texture of the object, which determines the Emission of the material
+	_Ambient_Occlusion_Strength_:The strength of the ambient occlusion map, which determines the intensity of the ambient occlusion map
+	_Ambient_Occlusion_Map_		:The ambient occlusion map texture of the object, which determines the Ambient Occlusion of the material
+	_Fill_Level_ 				:The slider that controls the fill level percentage
+	_Fill_Level_Emission_Color_	:The emission color which determines the emission color of the fill level
+	_Fill_Level_Emission_Color_Exposure_:The slider that controls the intensity of the fill level emission color
+	
+----------------------------------------------------------------------------------------------------------------------------
+
+If you have more questions or any suggestions, please contact us through our email.
+
+Contact email: nanoplasmaproductions@gmail.com
+Artstation: https://www.artstation.com/nanoplasmaproductions

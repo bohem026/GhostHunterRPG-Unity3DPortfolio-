@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7e3e746b2f38d49b23e5e4048fbafe, type: 3}
+  m_Name: CommonHatAsset
+  m_EditorClassIdentifier: 
+  Outer: 0
+  Inner: 0
+  Icon: {fileID: 21300000, guid: c44f24366b195f54cb29a58d82ffe91f, type: 3}
+  Button: {fileID: 1543873527019039186, guid: 04f95ecb709ab774ea8657a2bad432e2, type: 3}
+  Name: "\uD3ED\uC2E0\uD3ED\uC2E0\uD55C \uBE44\uB2C8 I"
+  Intro: "\uAE38\uAC00 \uC4F0\uB808\uAE30\uD1B5\uC5D0\uC11C \uC8FC\uC6B4 \uB4EF\uD55C
+    \uBAA8\uC790. \uD587\uBCD5\uC740 \uAC00\uB824\uC8FC\uC9C0\uB9CC, \uBA4B\uC740
+    \uC6B4\uC5D0 \uB9E1\uACA8\uC57C \uD55C\uB2E4."
+  MainStat:
+    NAME: "\uBB3C\uB9AC \uACF5\uACA9\uB825"
+    TYPE: 2
+    FORMAT: 0
+    BASE: 100
+  SubStat:
+    NAME: "\uB9C8\uBC95 \uACF5\uACA9\uB825"
+    TYPE: 3
+    FORMAT: 0
+    BASE: 90
