@@ -1,15 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using UnityEngine;
 
 public static class CoroutineExtensions
 {
     /// <summary>
-    /// Task를 Coroutine 형식으로 바꿔주는 확장 메서드 입니다.
+    /// Task를 Unity Coroutine(IEnumerator)으로 변환합니다.
+    /// 완료될 때까지 매 프레임 null을 반환하고, 실패 시 예외를 그대로 던집니다.
     /// </summary>
-    /// <param name="task">Task</param>
-    /// <returns>Coroutine</returns>
     public static IEnumerator AsCoroutine(this Task task)
     {
         while (!task.IsCompleted)
@@ -20,11 +17,8 @@ public static class CoroutineExtensions
     }
 
     /// <summary>
-    /// Task를 Coroutine 형식으로 바꿔주는 확장 메서드 입니다.
-    /// 제네릭 형식 입니다.
+    /// 제네릭 형식입니다.
     /// </summary>
-    /// <param name="task">Task</param>
-    /// <returns>Coroutine</returns>
     public static IEnumerator AsCoroutine<T>(this Task<T> task)
     {
         while (!task.IsCompleted)

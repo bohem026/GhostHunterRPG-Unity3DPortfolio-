@@ -1,43 +1,49 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Scriptable Object/Skill Asset")]
 public class SkillSO : ScriptableObject
 {
+    /// <summary>
+    /// 스킬 능력치 유형 (일부는 특정 원소 컨셉과 연계)
+    /// </summary>
     public enum AbilityType
     {
-        DMG,    /*Default*/
-        ITV,    /*Light*/
-        RNG,    /*Fire*/
-        DUR,    /*Ice*/
-        CNT,    /*Poison*/
-        Count   /*Length*/
+        DMG,   // 기본 대미지
+        ITV,   // 간격(예: Light)
+        RNG,   // 범위(예: Fire)
+        DUR,   // 지속시간(예: Ice)
+        CNT,   // 타격/개수(예: Poison)
+        Count
     }
 
     public enum ValueType
-    { Num, Sec, Rate, Count/*Length*/}
+    {
+        Num,   // 정수/수치
+        Sec,   // 초 단위
+        Rate,  // 비율(0~1)
+        Count
+    }
 
     [Header("ID")]
-    [SerializeField] private SkillWindowController.SKType Outer;
-    [SerializeField] private SkillWindowController.ELType Inner;
-    [SerializeField] private int Id;
+    [SerializeField] private SkillWindowController.SKType Outer; // 스킬 분류(패시브/디펜스/액티브)
+    [SerializeField] private SkillWindowController.ELType Inner; // 원소 타입
+    [SerializeField] private int Id;                             // 고유 ID
 
     [Header("UI")]
-    [SerializeField] private Sprite Icon;
-    [SerializeField] private string Name;
-    [SerializeField] private string Intro;
+    [SerializeField] private Sprite Icon;   // 아이콘
+    [SerializeField] private string Name;   // 스킬명
+    [SerializeField] private string Intro;  // 소개/설명
 
     [Header("VALUE")]
-    public SkillAbility MainAbility;
+    public SkillAbility MainAbility;  // 주 능력치
     [Space(10)]
-    public SkillAbility SubAbility;
+    public SkillAbility SubAbility;   // 보조 능력치
     [Space(10)]
-    [SerializeField] private int MaxLv;
-    [SerializeField] private int Cost;
+    [SerializeField] private int MaxLv; // 최대 레벨
+    [SerializeField] private int Cost;  // 연구/강화 비용
 
-    #region Get
+    #region GET
     public SkillWindowController.SKType OUTER => Outer;
     public SkillWindowController.ELType INNER => Inner;
     public int ID => Id;
@@ -51,10 +57,10 @@ public class SkillSO : ScriptableObject
     [Serializable]
     public class SkillAbility
     {
-        public string NAME;
-        public AbilityType TYPE;
-        public ValueType FORMAT;
-        public float BASE;
-        public float PER;
+        public string NAME;        // 능력치 표기명
+        public AbilityType TYPE;   // 능력 타입
+        public ValueType FORMAT;   // 값 표현 형식
+        public float BASE;         // 기본값
+        public float PER;          // 레벨당 증가량
     }
 }
