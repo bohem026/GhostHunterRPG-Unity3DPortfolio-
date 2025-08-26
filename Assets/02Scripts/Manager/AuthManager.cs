@@ -202,4 +202,12 @@ public class AuthManager : MonoBehaviour
 
         alert_Password.SetActive(command);
     }
+
+    /// <summary>
+    /// UID 텍스트 표시/해제.
+    /// </summary>
+    public void ActivateUIDText(bool command)
+    {
+        text_UID.gameObject.SetActive(command);
+    }
 }

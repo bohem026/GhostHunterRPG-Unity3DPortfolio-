@@ -117,8 +117,11 @@ public class TitleUIManager : MonoBehaviour
         // 중복 입력 방지
         button_Start.interactable = false;
         button_Exit.interactable = false;
+
+        // UI 비활성화
         if (button_Exit.gameObject.activeSelf)
             button_Exit.gameObject.SetActive(false);
+        AuthManager.Inst.ActivateUIDText(false);
 
         // 클릭 SFX
         AudioPlayerPoolManager.Instance.PlaySFXClipOnceByType(AudioPlayerPoolManager.SFXType.Click);
