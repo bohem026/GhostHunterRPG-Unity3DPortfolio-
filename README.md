@@ -33,4 +33,4 @@
 <br><br>
 
 ## 포트폴리오 문서
-[📄 Notion](https://www.notion.so/RPG-25a3cbfc479280838cebc5dbab2d9f66?source=copy_link)
+[📄 Notion](https://bohem026.notion.site/RPG-25a3cbfc479280838cebc5dbab2d9f66?pvs=143)
