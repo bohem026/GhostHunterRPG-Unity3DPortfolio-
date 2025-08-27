@@ -467,14 +467,28 @@ public class Inven
 
     public Inven()
     {
+        /*** For main. ***/
+        //STGEM_CNT = 0;
+        //SKGEM_CNT = 0;
+        /*** For main. ***/
+        /*** For demo. ***/
         STGEM_CNT = 99;
         SKGEM_CNT = 99;
+        /*** For demo. ***/
         gearInvenCountList = new List<GearCountInnerList>(4)
         {
-            new GearCountInnerList(0), // 초깃값: 각 타입 1개씩 소지
-            new GearCountInnerList(),
-            new GearCountInnerList(),
-            new GearCountInnerList()
+            /*** For main. ***/
+            //new GearCountInnerList(),
+            //new GearCountInnerList(),
+            //new GearCountInnerList(),
+            //new GearCountInnerList()
+            /*** For main. ***/
+            /*** For demo. ***/
+            new GearCountInnerList(0),
+            new GearCountInnerList(0),
+            new GearCountInnerList(0),
+            new GearCountInnerList(0)
+            /*** For demo. ***/
         };
         gearEquipCountList = new List<GearCountInnerList>(4)
         {
@@ -508,10 +522,12 @@ public class GearCountInnerList
         counts = new List<int>(4) { 0, 0, 0, 0 };
     }
 
+    /*** For demo. ***/
     public GearCountInnerList(int firstAid)
     {
         counts = new List<int>(4) { 1, 1, 1, 1 };
     }
+    /*** For demo. ***/
 }
 
 [Serializable]
@@ -552,7 +568,10 @@ public class Info
     public Info()
     {
         FIRST_IN_GAME = true;
-        BEST_STAGE = 1;
+
+        //BEST_STAGE = 1; /*** For Main. ***/
+        BEST_STAGE = 5; /*** For demo. ***/
+
         STGEM_CLAIMED = true;
         SKGEM_CLAIMED = true;
         GEAR_CLAIMED = true;
