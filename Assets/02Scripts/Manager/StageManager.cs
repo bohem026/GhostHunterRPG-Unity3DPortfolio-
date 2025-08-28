@@ -22,6 +22,7 @@ public class StageManager : MonoBehaviour
     [Space(20)]
     [Header("PRODUCTION")]
     [SerializeField] private CinemachineVirtualCamera[] vcams_Intro;
+    [SerializeField] private GameObject waveBorder;
     [SerializeField] private bool IsIntermissionExist;
 
     // --- Components ---
@@ -293,6 +294,7 @@ public class StageManager : MonoBehaviour
         {
             IsIntermissionExist = false;
             currentSphereZone.SphereTrapZone.DeactivateByForce();
+            if (waveBorder) waveBorder.SetActive(false);
             StartCoroutine(DisplayIntermission());
             yield break;
         }
