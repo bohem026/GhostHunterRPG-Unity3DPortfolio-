@@ -18,10 +18,10 @@
 <br><br>
 
 ## 인게임 이미지
-<img width="491.52" height="240" alt="Description00" src="https://github.com/user-attachments/assets/843a82ae-b206-433c-a8cb-c302ce11e862" />
-<img width="491.52" height="240" alt="Description01" src="https://github.com/user-attachments/assets/5a12fb39-c5c9-4da7-8079-f31522d0897d" />
-<img width="491.52" height="240" alt="Description02" src="https://github.com/user-attachments/assets/eaae1f48-6ff4-4d31-b69a-bf35c0d8f13e" />
-<img width="491.52" height="240" alt="Description03" src="https://github.com/user-attachments/assets/86040877-0a34-4ff5-86cb-aaac21354c6d" />
+<img width="368.64" height="180" alt="Description00" src="https://github.com/user-attachments/assets/843a82ae-b206-433c-a8cb-c302ce11e862" />
+<img width="368.64" height="180" alt="Description01" src="https://github.com/user-attachments/assets/5a12fb39-c5c9-4da7-8079-f31522d0897d" />
+<img width="368.64" height="180" alt="Description02" src="https://github.com/user-attachments/assets/eaae1f48-6ff4-4d31-b69a-bf35c0d8f13e" />
+<img width="368.64" height="180" alt="Description03" src="https://github.com/user-attachments/assets/86040877-0a34-4ff5-86cb-aaac21354c6d" />
 
 <br><br>
 
