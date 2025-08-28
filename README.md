@@ -21,7 +21,7 @@
 <br><br>
 
 ## 빌드 파일
-[📁 Google Drive](https://drive.google.com/drive/folders/1StT6ztgRvsFmBcmjjhsEHm7mnZDt2SFi?usp=drive_link)
+[📁 Google Drive](https://drive.google.com/drive/folders/1MbMq7kMcM522uGVxgy5OxMhocLUM3t-k?usp=sharing)
 
 [🎮 Google Play Games](https://play.google.com/apps/internaltest/4701449806023983690)
 
