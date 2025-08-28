@@ -151,7 +151,7 @@ public class StatDetailWindowController : MonoBehaviour
         }
 
         // 재화 부족
-        if (selectedAsset.COST > GlobalValue.Instance._Inven.SKGEM_CNT)
+        if (selectedAsset.COST > GlobalValue.Instance._Inven.STGEM_CNT)
         {
             AudioPlayerPoolManager.Instance.PlaySFXClipOnceByType(AudioPlayerPoolManager.SFXType.Alert);
             StartCoroutine(StatWindowController.Inst.DisplayMessageWindow(ALERT_GEM, 1f));
