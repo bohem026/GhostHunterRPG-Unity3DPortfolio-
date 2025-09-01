@@ -26,9 +26,13 @@
 
 ## 빌드 파일
 [📁 Google Drive](https://drive.google.com/drive/folders/1MbMq7kMcM522uGVxgy5OxMhocLUM3t-k?usp=drive_link)
+
 [🎮 Google Play Games](https://play.google.com/apps/internaltest/4701449806023983690)
+
 ⚠️ 데모 용으로 스테이지 및 재화를 다수 해금한 버전입니다.
+
 ⚠️ 이메일로 접속할 경우 아이디는 이메일 형식을 유지해야 합니다. ex) 123@123.1
+
 ⚠️ 윈도우즈용 데모의 경우 인게임 일시정지 버튼은 ESC 입니다.
 <br><br>
 
