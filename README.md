@@ -23,7 +23,7 @@
 <img width="368.64" height="180" alt="Description02" src="https://github.com/user-attachments/assets/eaae1f48-6ff4-4d31-b69a-bf35c0d8f13e" />
 <img width="368.64" height="180" alt="Description03" src="https://github.com/user-attachments/assets/86040877-0a34-4ff5-86cb-aaac21354c6d" />
 
-<br><br>
+<br>
 
 ## 빌드 파일
 [📁 Google Drive](https://drive.google.com/drive/folders/1MbMq7kMcM522uGVxgy5OxMhocLUM3t-k?usp=drive_link)
